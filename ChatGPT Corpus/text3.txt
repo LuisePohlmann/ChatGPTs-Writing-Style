@@ -1,0 +1,54 @@
+### Abstract
+
+Oceanic Anoxic Event 2 (OAE 2), occurring around 94 million years ago during the Late Cretaceous, represents a significant period of widespread marine anoxia linked to volcanic activity and shifts in ocean circulation. This paper investigates the marine osmium (Os) isotope stratigraphy (187Os/188Os) to elucidate the interplay between volcanic inputs and oceanographic changes during OAE 2. By analyzing sediment cores from multiple global sites, we reconstruct variations in 187Os/188Os ratios, revealing pulses of volcanic activity and subsequent impacts on ocean chemistry and circulation patterns. Our findings highlight the critical role of volcanic emissions in triggering anoxic conditions and emphasize the importance of ocean circulation in propagating these effects across marine environments. This study advances our understanding of the mechanisms driving OAE 2 and offers valuable insights into the complex interactions between Earth's geosphere and biosphere during major climatic events.
+
+### Introduction
+
+Oceanic Anoxic Events (OAEs) are periods in Earth's history characterized by widespread depletion of oxygen in the world's oceans, leading to significant changes in marine ecosystems and geochemistry. Among these events, Oceanic Anoxic Event 2 (OAE 2), which occurred approximately 94 million years ago during the Cenomanian-Turonian boundary of the Late Cretaceous, stands out due to its global extent and profound impact on marine life and sedimentary processes. OAE 2 is marked by the deposition of organic-rich black shales, indicative of extensive anoxic conditions in the marine environment.
+
+The causes and mechanisms underlying OAE 2 have been the subject of extensive research and debate. Volcanic activity, particularly the emplacement of large igneous provinces (LIPs), is widely considered a primary driver. These volcanic events are believed to have released vast amounts of greenhouse gases, including carbon dioxide (CO2) and sulfur dioxide (SO2), leading to global warming, enhanced weathering, and nutrient influx into the oceans. These processes, in turn, triggered high primary productivity and oxygen depletion in the marine environment.
+
+Another critical factor in the development and propagation of anoxic conditions during OAE 2 is ocean circulation. Changes in ocean currents can influence the distribution of oxygen and nutrients, affecting the extent and duration of anoxic zones. The interaction between volcanic activity and ocean circulation is therefore central to understanding the dynamics of OAE 2.
+
+This paper utilizes marine osmium (Os) isotope stratigraphy (187Os/188Os) as a tool to investigate the interplay between volcanism and ocean circulation during OAE 2. The osmium isotope system is particularly useful in this context because it is sensitive to changes in volcanic and hydrothermal inputs, as well as continental weathering processes. By analyzing the 187Os/188Os ratios in marine sediments from multiple locations, we aim to reconstruct the timing and magnitude of volcanic events and assess their impact on ocean chemistry and circulation patterns.
+
+#### Geological and Climatic Context
+
+The Late Cretaceous was a period of high sea levels, warm global temperatures, and dynamic tectonic activity. The Cenomanian-Turonian boundary, in particular, experienced significant geological and climatic changes, including the emplacement of the Caribbean and Ontong Java Plateaus, two major large igneous provinces. These volcanic events are believed to have released significant amounts of greenhouse gases, contributing to the greenhouse climate conditions of the time.
+
+The high global temperatures during the Late Cretaceous likely enhanced the hydrological cycle, increasing weathering rates and nutrient fluxes to the oceans. These conditions favored high primary productivity, particularly in shallow epicontinental seas and coastal regions, which were prevalent during this period. The increased productivity and subsequent decomposition of organic matter led to oxygen depletion in the water column, creating anoxic conditions.
+
+#### Osmium Isotope Stratigraphy
+
+Osmium isotopes are a powerful tool for studying past changes in ocean chemistry and volcanic activity. The 187Os/188Os ratio in seawater reflects a balance between inputs from continental weathering (which has a high 187Os/188Os ratio) and volcanic or hydrothermal sources (which have low 187Os/188Os ratios). During periods of increased volcanic activity, the 187Os/188Os ratio in marine sediments tends to decrease due to the influx of mantle-derived osmium.
+
+The osmium isotope record in marine sediments can therefore provide valuable insights into the timing and intensity of volcanic events, as well as their impact on ocean chemistry. By analyzing the 187Os/188Os ratios in sediment cores from different locations, we can reconstruct the temporal and spatial patterns of osmium isotopic variations, shedding light on the interaction between volcanism and ocean circulation during OAE 2.
+
+#### Volcanism and Ocean Circulation
+
+Volcanic activity during the Late Cretaceous, particularly the emplacement of large igneous provinces, played a crucial role in driving the climatic and oceanographic changes associated with OAE 2. The release of greenhouse gases from volcanic eruptions would have contributed to global warming, enhancing the hydrological cycle and weathering rates. Increased weathering, in turn, would have delivered more nutrients to the oceans, fueling primary productivity and promoting anoxic conditions.
+
+Changes in ocean circulation patterns also played a significant role in the development and propagation of anoxic conditions. During the Cenomanian-Turonian boundary, the configuration of continents and ocean basins facilitated the formation of restricted basins and epicontinental seas, where water exchange with the open ocean was limited. These settings were particularly susceptible to oxygen depletion due to high productivity and restricted circulation.
+
+The interaction between volcanic inputs and ocean circulation is critical to understanding the dynamics of OAE 2. Volcanic eruptions could have altered ocean circulation patterns by changing the temperature and salinity gradients that drive ocean currents. Additionally, the influx of volcanic ash and aerosols could have affected marine productivity and nutrient cycling, further influencing oceanographic conditions.
+
+#### Objectives and Methodology
+
+This study aims to investigate the interaction between volcanism and ocean circulation during OAE 2 using marine osmium isotope stratigraphy. Our specific objectives are to:
+
+1. Reconstruct the 187Os/188Os ratios in marine sediments from multiple global sites to identify pulses of volcanic activity during OAE 2.
+2. Assess the impact of these volcanic events on ocean chemistry and circulation patterns.
+3. Evaluate the role of ocean circulation in propagating anoxic conditions and its interaction with volcanic inputs.
+
+To achieve these objectives, we employ a multidisciplinary approach, including:
+
+- Sediment core analysis to obtain high-resolution records of 187Os/188Os ratios.
+- Geochemical analyses to determine the concentration and isotopic composition of osmium in marine sediments.
+- Climate and ocean circulation models to simulate the effects of volcanic activity and changes in ocean currents on marine anoxia.
+- Paleoceanographic data to reconstruct past oceanographic conditions and their relationship with volcanic events.
+
+#### Significance and Implications
+
+Understanding the interaction between volcanism and ocean circulation during OAE 2 is crucial for several reasons. Firstly, it provides insights into the mechanisms driving marine anoxia and the role of external forcings, such as volcanic activity, in triggering these events. Secondly, it highlights the importance of ocean circulation in modulating the extent and duration of anoxic conditions, emphasizing the complex interplay between physical and chemical processes in the marine environment. Finally, it offers valuable lessons for understanding contemporary climate change and the potential impacts of volcanic activity and ocean circulation shifts on marine ecosystems and global climate.
+
+In conclusion, this study aims to unravel the complex interactions between volcanism and ocean circulation during OAE 2, using marine osmium isotope stratigraphy as a key tool. By integrating data from multiple global sites and employing a multidisciplinary approach, we provide a comprehensive picture of the factors driving this significant climatic event. Our findings contribute to a deeper understanding of the processes that govern marine anoxia and offer important insights into the interplay between Earth's geosphere and biosphere during major climatic transitions.

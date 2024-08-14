@@ -1,0 +1,90 @@
+### Abstract
+
+This paper investigates the effects of particle morphology on the analysis of discrete particle dispersion using Delaunay tessellation. Delaunay tessellation is a powerful computational geometry tool used to model and analyze the spatial distribution of particles. While significant research has been conducted on spherical or idealized particle shapes, the influence of more complex, real-world particle morphologies remains less understood. This study explores how variations in particle shape—ranging from spherical to irregular geometries—affect the outcomes of dispersion analysis using Delaunay tessellation. By employing synthetic datasets with controlled morphology and real-world particle samples, we demonstrate that particle shape significantly impacts tessellation metrics, such as edge length distributions, area of triangles, and connectivity. Our findings underscore the necessity of accounting for particle morphology in dispersion studies to enhance the accuracy of spatial analyses in various scientific and engineering applications.
+
+### Introduction
+
+#### Background
+
+Understanding the spatial distribution of particles is crucial in numerous scientific and engineering disciplines, including materials science, geology, and biology. Spatial analysis techniques provide insights into the arrangement, interaction, and behavior of particles within a given system. Among these techniques, Delaunay tessellation stands out due to its ability to partition space into non-overlapping triangles (in 2D) or tetrahedra (in 3D) such that no point is inside the circumcircle (or circumsphere) of any triangle (or tetrahedron). This property makes Delaunay tessellation particularly useful for analyzing the geometric and topological properties of particle distributions.
+
+However, much of the existing research on Delaunay tessellation focuses on idealized particle shapes, typically assuming spherical or ellipsoidal particles. This assumption simplifies the mathematical modeling but often does not reflect the true complexity of particle shapes encountered in real-world scenarios. For example, particles in sedimentary rocks, cellular tissues, and manufactured materials can exhibit a wide variety of morphologies, from smooth and spherical to highly irregular and anisotropic forms.
+
+#### Motivation
+
+The morphology of particles plays a critical role in determining their physical and mechanical properties. Consequently, the shape of particles can influence their spatial arrangement and the resulting tessellation. Understanding how different particle morphologies affect Delaunay tessellation outcomes is essential for accurately interpreting dispersion analyses and for making informed decisions in applications such as material design, quality control, and environmental monitoring.
+
+Despite its importance, the influence of particle morphology on Delaunay tessellation has not been thoroughly investigated. This gap in knowledge can lead to misinterpretations and inaccuracies in studies that rely on tessellation-based analyses. Therefore, this research aims to bridge this gap by systematically examining the effects of particle shape variations on Delaunay tessellation metrics.
+
+#### Objectives and Scope
+
+The primary objectives of this paper are to:
+
+1. **Investigate the Influence of Particle Morphology**: Explore how different particle shapes, ranging from spherical to irregular, impact the outcomes of Delaunay tessellation.
+2. **Quantify Tessellation Metrics**: Measure and analyze key tessellation metrics, including edge length distributions, triangle areas, and network connectivity, in relation to particle shape variations.
+3. **Compare Synthetic and Real-World Samples**: Evaluate the effects of particle morphology using both synthetic datasets with controlled shapes and real-world particle samples.
+4. **Provide Practical Insights**: Offer practical insights and recommendations for researchers and engineers on how to account for particle morphology in dispersion analyses using Delaunay tessellation.
+
+The scope of this study includes the development and use of computational models to simulate particle distributions with varying shapes, the application of Delaunay tessellation to these distributions, and the analysis of resulting tessellation metrics. Both 2D and 3D tessellations are considered to provide a comprehensive understanding of the effects of particle morphology.
+
+#### Methodology
+
+1. **Synthetic Dataset Generation**: Create synthetic datasets of particle distributions with controlled morphologies. These datasets include particles with spherical, ellipsoidal, and irregular shapes, designed to mimic real-world particle variations.
+2. **Real-World Sample Collection**: Collect real-world particle samples from various sources, such as sedimentary rocks, biological tissues, and industrial materials. Characterize the shapes and sizes of these particles using imaging techniques.
+3. **Delaunay Tessellation Application**: Apply Delaunay tessellation to both synthetic and real-world particle distributions. Use computational geometry algorithms to generate tessellations and extract relevant metrics.
+4. **Metric Analysis**: Analyze tessellation metrics, including edge length distributions, triangle areas, and network connectivity, in relation to particle shapes. Perform statistical analyses to quantify the impact of particle morphology on these metrics.
+5. **Comparison and Interpretation**: Compare the results from synthetic and real-world samples to identify common trends and differences. Interpret the findings to provide insights into the role of particle morphology in spatial analyses.
+
+#### Literature Review
+
+Previous studies have extensively explored the use of Delaunay tessellation for analyzing particle distributions, particularly in the context of idealized spherical or ellipsoidal particles. These studies have demonstrated the utility of Delaunay tessellation in various applications, such as determining nearest-neighbor distances, evaluating packing densities, and modeling interaction networks.
+
+However, the assumption of spherical or ellipsoidal shapes often does not hold true for many real-world particles, which can exhibit significant irregularities and anisotropies. Some researchers have begun to address this limitation by incorporating more complex shapes into their analyses. For example, studies on granular materials and biological tissues have shown that particle shape can influence packing behavior and mechanical properties. Nevertheless, a systematic investigation of how particle morphology affects Delaunay tessellation outcomes is still lacking.
+
+#### Importance of Particle Morphology
+
+Particle morphology can influence tessellation outcomes in several ways:
+
+1. **Edge Length Distributions**: Irregular particle shapes can lead to a wider range of edge lengths in the tessellation, reflecting the variability in distances between neighboring particles.
+2. **Triangle Areas and Volumes**: The area (in 2D) or volume (in 3D) of tessellation elements can vary significantly depending on particle shape, affecting metrics such as density and porosity.
+3. **Network Connectivity**: Irregular shapes can alter the connectivity of the tessellation network, influencing properties such as transport pathways and mechanical stability.
+
+By systematically exploring these effects, this study aims to provide a deeper understanding of the relationship between particle morphology and Delaunay tessellation metrics.
+
+#### Synthetic Datasets and Real-World Samples
+
+To achieve a comprehensive analysis, we use both synthetic datasets and real-world samples. Synthetic datasets allow for controlled variations in particle shape, enabling a clear assessment of how specific morphological features influence tessellation outcomes. Real-world samples, on the other hand, provide practical relevance by illustrating how these effects manifest in actual materials.
+
+For synthetic datasets, particles are generated using computational models that allow for precise control over shape parameters. These models include:
+
+1. **Spherical Particles**: Representing idealized shapes often assumed in traditional studies.
+2. **Ellipsoidal Particles**: Introducing anisotropy and varying aspect ratios to mimic more realistic shapes.
+3. **Irregular Particles**: Simulating complex, non-ideal geometries that occur in natural and industrial contexts.
+
+Real-world samples are characterized using imaging techniques such as scanning electron microscopy (SEM) and computed tomography (CT) scanning. These techniques provide detailed information on particle shapes and sizes, which are used to generate tessellations and extract metrics for analysis.
+
+#### Key Tessellation Metrics
+
+The primary tessellation metrics analyzed in this study include:
+
+1. **Edge Length Distributions**: Histograms and statistical measures of edge lengths to assess how particle shape influences spatial relationships.
+2. **Triangle Areas (2D) and Tetrahedral Volumes (3D)**: Distributions of areas and volumes to evaluate the impact of shape on tessellation density and porosity.
+3. **Connectivity Metrics**: Measures of network connectivity, such as degree distributions and clustering coefficients, to understand how shape affects interaction networks.
+
+#### Results and Discussion
+
+The results section presents the findings from both synthetic datasets and real-world samples, comparing tessellation metrics across different particle morphologies. Statistical analyses are performed to quantify the effects of shape variations and to identify significant trends. The discussion interprets these findings in the context of practical applications, highlighting the importance of considering particle morphology in dispersion analyses.
+
+#### Conclusion
+
+This study demonstrates that particle morphology has a significant impact on the analysis of discrete particle dispersion using Delaunay tessellation. By systematically exploring the effects of shape variations, we provide valuable insights for researchers and engineers working with complex particle systems. The findings underscore the necessity of accounting for particle morphology to enhance the accuracy and reliability of spatial analyses in various scientific and engineering disciplines.
+
+#### Future Work
+
+Future research directions include:
+
+1. **Advanced Shape Modeling**: Developing more sophisticated models to capture a wider range of particle morphologies and their effects on tessellation outcomes.
+2. **Experimental Validation**: Conducting experimental studies to validate the computational findings and to further explore the impact of morphology in real-world scenarios.
+3. **Application-Specific Studies**: Investigating the implications of particle morphology in specific applications, such as material design, environmental monitoring, and biological tissue analysis.
+
+By addressing these areas, future work can build on the findings of this study to further enhance our understanding of the relationship between particle shape and spatial distribution.

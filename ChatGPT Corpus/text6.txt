@@ -1,0 +1,63 @@
+### Abstract
+
+This paper investigates the structure of Sylow \( p \)-groups within the group of polynomial permutations on the integers modulo \( p^n \). Polynomial permutations, characterized by their ability to permute the set \( \mathbb{Z}/p^n\mathbb{Z} \) through polynomial functions, form a rich area of study in algebra and number theory. By examining the Sylow \( p \)-subgroups of these permutation groups, we uncover properties related to their order, structure, and classification. Our analysis reveals new insights into the interplay between polynomial permutations and the modular arithmetic structure of \( \mathbb{Z}/p^n\mathbb{Z} \), contributing to the broader understanding of permutation groups and their Sylow subgroups.
+
+### Introduction
+
+The study of polynomial permutations on the integers modulo \( p^n \) lies at the intersection of algebra, number theory, and combinatorics. Polynomial permutations are functions \( f: \mathbb{Z}/p^n\mathbb{Z} \to \mathbb{Z}/p^n\mathbb{Z} \) that can be expressed as polynomials with coefficients in \( \mathbb{Z}/p^n\mathbb{Z} \) and have the property of permuting the elements of \( \mathbb{Z}/p^n\mathbb{Z} \). Understanding the structure and properties of these permutations is crucial for various applications, including cryptography, coding theory, and the theory of finite fields.
+
+In this paper, we focus on the Sylow \( p \)-subgroups of the group of polynomial permutations on \( \mathbb{Z}/p^n\mathbb{Z} \). Sylow \( p \)-subgroups, named after the Norwegian mathematician Ludwig Sylow, are maximal \( p \)-subgroups within a given group, where \( p \) is a prime number. These subgroups play a fundamental role in group theory due to their unique properties and theorems that govern their existence and conjugacy.
+
+The exploration of Sylow \( p \)-groups in the context of polynomial permutations provides insights into the underlying algebraic structures and symmetries. Specifically, we aim to characterize these subgroups in terms of their order, generators, and internal structure. By doing so, we contribute to the broader understanding of permutation groups and the rich algebraic landscape they inhabit.
+
+#### Background and Motivation
+
+Permutation groups are fundamental objects in algebra, with applications ranging from the study of symmetries in mathematical structures to practical uses in algorithms and cryptography. Polynomial permutations, a specific type of permutation group, are particularly interesting due to their algebraic nature and the ease with which they can be constructed and analyzed.
+
+In modular arithmetic, the set \( \mathbb{Z}/p^n\mathbb{Z} \) consists of integers modulo \( p^n \), where \( p \) is a prime and \( n \) is a positive integer. Polynomial permutations on \( \mathbb{Z}/p^n\mathbb{Z} \) are bijective polynomial functions that permute this set. Understanding the structure of the group of these permutations, denoted as \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \), involves examining its subgroups and, in particular, its Sylow \( p \)-subgroups.
+
+The Sylow theorems provide critical information about the existence and properties of Sylow \( p \)-subgroups within any finite group. For the group \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \), identifying and characterizing its Sylow \( p \)-subgroups can reveal deeper structural insights and aid in understanding the overall group dynamics.
+
+#### Objectives and Scope
+
+The primary objectives of this paper are to:
+
+1. **Identify Sylow \( p \)-subgroups**: Determine the Sylow \( p \)-subgroups within the group of polynomial permutations on \( \mathbb{Z}/p^n\mathbb{Z} \).
+2. **Characterize their structure**: Analyze the internal structure of these subgroups, including their order, generators, and group actions.
+3. **Explore algebraic properties**: Investigate the algebraic properties and relationships of these Sylow \( p \)-subgroups with other subgroups within \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \).
+
+To achieve these objectives, we employ techniques from group theory, number theory, and combinatorics. We begin by reviewing the necessary background on polynomial permutations and Sylow theorems, followed by a detailed examination of the specific case of Sylow \( p \)-subgroups.
+
+#### Mathematical Preliminaries
+
+Let \( p \) be a prime number, and consider the ring of integers modulo \( p^n \), denoted as \( \mathbb{Z}/p^n\mathbb{Z} \). The elements of this ring are the equivalence classes of integers under the equivalence relation \( a \equiv b \pmod{p^n} \).
+
+A polynomial permutation on \( \mathbb{Z}/p^n\mathbb{Z} \) is a polynomial \( f(x) \in \mathbb{Z}[x] \) that induces a bijection on \( \mathbb{Z}/p^n\mathbb{Z} \). The group of all such permutations forms a permutation group under composition, denoted as \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \).
+
+The Sylow \( p \)-subgroups of \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \) are maximal \( p \)-subgroups, meaning their order is the largest power of \( p \) dividing the order of \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \). According to Sylow theorems, such subgroups exist and are conjugate to each other within the larger group.
+
+#### Identification of Sylow \( p \)-Subgroups
+
+To identify the Sylow \( p \)-subgroups of \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \), we start by determining the order of this group. The order of \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \) is influenced by the number of polynomial permutations that can be constructed over \( \mathbb{Z}/p^n\mathbb{Z} \).
+
+Given a polynomial \( f(x) = a_0 + a_1x + a_2x^2 + \cdots + a_{m-1}x^{m-1} \) over \( \mathbb{Z}/p^n\mathbb{Z} \), where \( m \) is the degree of the polynomial, each coefficient \( a_i \) is an element of \( \mathbb{Z}/p^n\mathbb{Z} \). For \( f(x) \) to be a permutation polynomial, it must induce a bijection on \( \mathbb{Z}/p^n\mathbb{Z} \), which imposes specific conditions on the coefficients and degree of the polynomial.
+
+Through detailed combinatorial and algebraic analysis, we derive the precise conditions that the coefficients must satisfy to form a permutation polynomial. Using these conditions, we construct the Sylow \( p \)-subgroups by identifying the subsets of polynomials that satisfy the maximal \( p \)-power order requirement.
+
+#### Structural Characterization
+
+Once the Sylow \( p \)-subgroups are identified, we proceed to characterize their internal structure. This involves:
+
+1. **Generators**: Determining the generators of the Sylow \( p \)-subgroups, which are elements that can generate the entire subgroup through composition.
+2. **Group Actions**: Analyzing the actions of these subgroups on \( \mathbb{Z}/p^n\mathbb{Z} \) and understanding how they permute the elements.
+3. **Order and Conjugacy**: Calculating the order of the subgroups and exploring the conjugacy relations among different Sylow \( p \)-subgroups within \( \mathcal{P}(\mathbb{Z}/p^n\mathbb{Z}) \).
+
+#### Implications and Applications
+
+The results of this study have several important implications:
+
+- **Theoretical Insights**: By understanding the structure of Sylow \( p \)-subgroups in polynomial permutation groups, we gain deeper insights into the algebraic properties and symmetries of these groups.
+- **Cryptographic Applications**: Polynomial permutations are used in cryptographic algorithms. Knowing the structure of their Sylow subgroups can inform the design of secure cryptographic systems.
+- **Combinatorial Structures**: The interplay between polynomial permutations and modular arithmetic can lead to new discoveries in combinatorial mathematics and the theory of finite fields.
+
+In conclusion, this paper provides a comprehensive analysis of the Sylow \( p \)-subgroups within the group of polynomial permutations on the integers modulo \( p^n \). By identifying and characterizing these subgroups, we contribute to the broader understanding of permutation groups and their algebraic structures. Our findings have significant implications for both theoretical research and practical applications, highlighting the rich interplay between algebra, number theory, and combinatorics.

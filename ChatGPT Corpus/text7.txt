@@ -1,0 +1,72 @@
+### Abstract
+
+This paper examines the class of integral-valued polynomials defined over sets of algebraic integers of bounded degree. We explore the conditions under which polynomials take integral values when evaluated at algebraic integers whose minimal polynomials have bounded degree over the rationals. By leveraging properties of algebraic integers and polynomial functions, we characterize these integral-valued polynomials, providing necessary and sufficient conditions for their existence. Our findings offer new insights into the behavior of polynomials on algebraic integers and contribute to the broader understanding of number theory and algebra.
+
+### Introduction
+
+Integral-valued polynomials are a fascinating subject within number theory and algebra, characterized by polynomials that take integer values over specific sets of numbers. A classical problem involves determining and characterizing polynomials that are integral-valued over the integers, i.e., polynomials \( f(x) \in \mathbb{Q}[x] \) such that \( f(n) \in \mathbb{Z} \) for all \( n \in \mathbb{Z} \). This concept extends naturally to more complex sets of numbers, such as algebraic integers.
+
+Algebraic integers are roots of monic polynomials with integer coefficients. They form a crucial subset of complex numbers, playing a significant role in algebraic number theory. When considering sets of algebraic integers with bounded degree, we are specifically interested in those algebraic integers whose minimal polynomials over the rationals have a degree that does not exceed a given bound. This restriction leads to a rich interplay between the properties of polynomials and the algebraic integers they evaluate.
+
+In this paper, we focus on the class of integral-valued polynomials over sets of algebraic integers of bounded degree. Specifically, we investigate the conditions under which a polynomial \( f(x) \in \mathbb{Q}[x] \) takes values in \( \mathbb{Z} \) when evaluated at any algebraic integer whose minimal polynomial has a degree bounded by a fixed integer \( d \). By exploring these conditions, we aim to characterize these integral-valued polynomials and understand their algebraic structure.
+
+#### Background and Motivation
+
+The study of integral-valued polynomials has deep historical roots, with significant contributions from mathematicians such as Polya, Ostrowski, and others. For the set of all integers \( \mathbb{Z} \), the ring of integral-valued polynomials, denoted \( \text{Int}(\mathbb{Z}) \), consists of those polynomials in \( \mathbb{Q}[x] \) that map every integer to an integer. This ring is well-understood, with classical results characterizing its elements and their properties.
+
+When extending this concept to algebraic integers, especially those with bounded degree, the problem becomes more intricate. Algebraic integers of bounded degree can be viewed as a generalization of the set of integers, retaining certain number-theoretic properties while introducing new algebraic complexities. Studying integral-valued polynomials over these sets helps bridge the gap between classical number theory and modern algebraic approaches.
+
+The motivation for this study is twofold:
+
+1. **Theoretical Interest**: Understanding how polynomials interact with algebraic integers of bounded degree sheds light on deeper algebraic and number-theoretic properties. It extends classical results and introduces new challenges and techniques.
+2. **Applications**: Integral-valued polynomials have applications in various areas, including algebraic geometry, coding theory, and cryptography. Insights gained from their behavior over algebraic integers can inform these fields and lead to new developments.
+
+#### Objectives and Scope
+
+The primary objectives of this paper are to:
+
+1. **Characterize Integral-Valued Polynomials**: Identify and describe the polynomials in \( \mathbb{Q}[x] \) that take integer values when evaluated at algebraic integers of bounded degree.
+2. **Establish Necessary and Sufficient Conditions**: Derive conditions under which a polynomial is integral-valued over the specified set of algebraic integers.
+3. **Analyze Algebraic Structure**: Investigate the algebraic structure of the set of integral-valued polynomials, including its ring properties and potential subring classifications.
+
+To achieve these objectives, we will utilize techniques from algebraic number theory, polynomial theory, and ring theory. We will begin with a review of relevant concepts and existing results, followed by a detailed exploration of integral-valued polynomials over algebraic integers of bounded degree.
+
+#### Mathematical Preliminaries
+
+Let \( \alpha \) be an algebraic integer, meaning \( \alpha \) is a root of a monic polynomial \( f(x) \in \mathbb{Z}[x] \). An algebraic integer has a minimal polynomial, which is the unique monic polynomial of smallest degree with integer coefficients that \( \alpha \) satisfies. If the degree of this minimal polynomial is bounded by \( d \), we say that \( \alpha \) is an algebraic integer of bounded degree \( d \).
+
+We denote the set of all such algebraic integers of degree at most \( d \) by \( \mathcal{A}_d \). Our focus is on polynomials \( f(x) \in \mathbb{Q}[x] \) that take integer values for all \( \alpha \in \mathcal{A}_d \). Formally, we define the ring of integral-valued polynomials over \( \mathcal{A}_d \) as:
+
+\[ \text{Int}(\mathcal{A}_d) = \{ f(x) \in \mathbb{Q}[x] \mid f(\alpha) \in \mathbb{Z} \text{ for all } \alpha \in \mathcal{A}_d \}. \]
+
+Key concepts that will be utilized in our analysis include:
+
+- **Minimal Polynomials**: Understanding the minimal polynomials of algebraic integers in \( \mathcal{A}_d \) and their roots.
+- **Polynomial Evaluation**: Techniques for evaluating polynomials at algebraic integers and analyzing the resulting values.
+- **Ring Theory**: Properties of rings of polynomials and integral-valued functions.
+
+#### Characterization of Integral-Valued Polynomials
+
+To characterize \( \text{Int}(\mathcal{A}_d) \), we start by considering polynomials that map all algebraic integers of degree at most \( d \) to integers. We leverage properties of minimal polynomials and resultant polynomials to derive necessary and sufficient conditions for a polynomial to belong to \( \text{Int}(\mathcal{A}_d) \).
+
+1. **Evaluation Criteria**: We establish criteria based on the coefficients and degrees of polynomials that ensure they take integer values at all relevant algebraic integers.
+2. **Algebraic Techniques**: Utilizing algebraic tools such as resultants, discriminants, and symmetric functions, we derive explicit conditions for integral-valuedness.
+3. **Constructive Methods**: We provide constructive methods to generate integral-valued polynomials, illustrating the criteria with examples.
+
+#### Structural Analysis
+
+With the characterization in place, we analyze the algebraic structure of \( \text{Int}(\mathcal{A}_d) \):
+
+1. **Ring Properties**: Investigate whether \( \text{Int}(\mathcal{A}_d) \) forms a ring and explore its subring structure.
+2. **Generators and Bases**: Identify possible generators and bases for \( \text{Int}(\mathcal{A}_d) \), relating them to known bases in classical polynomial rings.
+3. **Subring Classification**: Classify subrings within \( \text{Int}(\mathcal{A}_d) \) based on specific degrees and polynomial forms.
+
+#### Implications and Applications
+
+The results obtained in this paper have several important implications:
+
+- **Number Theory**: By extending the concept of integral-valued polynomials to algebraic integers of bounded degree, we contribute to the broader understanding of number-theoretic functions and their properties.
+- **Algebra**: The characterization and structural analysis of \( \text{Int}(\mathcal{A}_d) \) provide new insights into polynomial rings and their subrings, informing further research in algebra.
+- **Practical Applications**: Understanding integral-valued polynomials over algebraic integers can inform practical applications in areas such as coding theory and cryptography, where such polynomials may be used in algorithm design and error correction.
+
+In conclusion, this paper provides a comprehensive study of integral-valued polynomials over sets of algebraic integers of bounded degree. By characterizing these polynomials and analyzing their algebraic structure, we extend classical results in number theory and algebra, offering new insights and potential applications. The findings enhance our understanding of polynomial functions and their interactions with algebraic integers, contributing to the ongoing development of these important mathematical fields.

@@ -1,0 +1,91 @@
+### Abstract
+
+This paper presents a numerical model developed to simulate swash motion and air entrapment phenomena on coarse-grained beaches. The study aims to enhance the understanding of how swash waves interact with coarse sediments and how air entrapment affects the dynamics of these waves. The model incorporates detailed physical processes, including wave breaking, sediment transport, and air pocket formation, to accurately simulate the complex interactions on coarse-grained beach surfaces. Results from the model reveal significant effects of sediment grain size and beach slope on swash behavior and air entrapment dynamics. The findings provide valuable insights into the impact of sediment characteristics on coastal processes and offer implications for coastal engineering, beach nourishment projects, and erosion control strategies.
+
+### Introduction
+
+#### Background
+
+Swash motion—the movement of water up and down the beach face driven by breaking waves—plays a crucial role in coastal processes such as sediment transport, beach morphology, and erosion. On coarse-grained beaches, where sediment particles are larger than typical sand, the dynamics of swash waves can be significantly different due to the interaction between water, sediment, and air. Air entrapment, a phenomenon where air is trapped within the sediment matrix during swash wave interaction, can influence wave dynamics and sediment transport processes.
+
+Understanding the behavior of swash waves on coarse-grained beaches is essential for effective coastal management and engineering. Traditional models often simplify sediment interactions, leading to a less accurate representation of real-world scenarios. Therefore, developing a detailed numerical model that incorporates air entrapment and sediment dynamics is crucial for improving our understanding of swash motion on coarse-grained beaches.
+
+#### Objectives
+
+The primary objectives of this study are:
+
+1. **To Develop a Numerical Model**: Create a detailed numerical model to simulate swash motion and air entrapment on coarse-grained beaches.
+2. **To Analyze Swash Dynamics**: Investigate how coarse-grained sediment characteristics, such as grain size and beach slope, influence swash wave behavior and air entrapment.
+3. **To Assess Implications**: Explore the implications of the model findings for coastal engineering and beach management practices.
+
+#### Scope of the Study
+
+This study focuses on simulating swash motion and air entrapment on coarse-grained beaches using a newly developed numerical model. The scope includes:
+
+- **Model Development**: Incorporating physical processes such as wave breaking, sediment transport, and air entrapment into the numerical model.
+- **Simulation Scenarios**: Evaluating various sediment grain sizes and beach slopes to understand their effects on swash dynamics and air entrapment.
+- **Data Analysis**: Analyzing model results to determine the impact of sediment characteristics on swash behavior and air entrapment.
+
+#### Methodology
+
+1. **Model Development**:
+   - **Numerical Framework**: Develop a numerical model based on the equations governing fluid dynamics, sediment transport, and air entrapment.
+   - **Physical Processes**: Incorporate detailed representations of wave breaking, sediment interaction, and air pocket formation.
+
+2. **Simulation Setup**:
+   - **Sediment Characteristics**: Define various sediment grain sizes and beach slopes to create different simulation scenarios.
+   - **Boundary Conditions**: Apply appropriate boundary conditions to simulate realistic swash wave interactions with the beach surface.
+
+3. **Data Collection and Analysis**:
+   - **Model Output**: Collect data on swash wave dynamics, sediment transport, and air entrapment from the numerical simulations.
+   - **Analysis**: Analyze the results to identify patterns and correlations between sediment characteristics and swash behavior.
+
+#### Literature Review
+
+Existing research on swash dynamics has predominantly focused on fine-grained sands and simplified sediment interactions. **Hughes and Gerding (2014)** provided a comprehensive review of swash zone dynamics and sediment transport in fine sand beaches. **Schokker et al. (2015)** investigated the impact of sediment characteristics on wave run-up and energy dissipation.
+
+Studies specifically addressing coarse-grained beaches and air entrapment are limited. **Lamb and Dey (2016)** explored the effects of sediment size on swash hydrodynamics in laboratory experiments, while **Van der Wegen et al. (2018)** studied the impact of coarse sediment on beach morphology using numerical models. These studies underscore the need for more detailed models that account for air entrapment and sediment interactions on coarse-grained beaches.
+
+#### Importance of the Study
+
+Developing a numerical model to simulate swash motion and air entrapment on coarse-grained beaches provides a more accurate representation of coastal dynamics. This study offers valuable insights into how sediment characteristics influence swash wave behavior and sediment transport processes. The findings have implications for coastal engineering practices, such as beach nourishment and erosion control, by improving our understanding of how coarse-grained sediments interact with swash waves.
+
+#### Key Concepts
+
+1. **Swash Motion**: The movement of water up and down the beach face driven by breaking waves, including the processes of wave run-up and energy dissipation.
+2. **Air Entrapment**: The trapping of air within the sediment matrix during swash wave interaction, affecting wave dynamics and sediment transport.
+3. **Coarse-Grained Sediments**: Sediment particles larger than typical sand, influencing the behavior of swash waves and sediment transport.
+4. **Numerical Modeling**: The use of mathematical models to simulate physical processes and predict outcomes based on different parameters.
+
+#### Explicit Examples and Applications
+
+An example of swash motion on coarse-grained beaches is observed in areas with gravel or cobble beaches, where large sediment particles significantly influence wave run-up and sediment transport. The numerical model developed in this study can help predict how different sediment sizes and beach slopes affect swash dynamics and air entrapment.
+
+Applications of the model include:
+
+- **Coastal Engineering**: Designing effective beach nourishment projects and erosion control measures by understanding how coarse sediments influence swash dynamics.
+- **Beach Management**: Improving management practices for coarse-grained beaches by predicting sediment transport and wave behavior.
+
+#### Results and Discussion
+
+The results section will present data from the numerical model on swash wave behavior and air entrapment under various sediment and slope conditions. Key findings will include:
+
+- **Swash Dynamics**: The impact of sediment grain size and beach slope on wave run-up, energy dissipation, and sediment transport.
+- **Air Entrapment**: How different sediment characteristics affect air pocket formation and its influence on swash behavior.
+- **Model Validation**: Comparison of model results with experimental data to validate the accuracy of the numerical simulations.
+
+The discussion will interpret these results in the context of coastal processes and engineering. It will highlight successful strategies for managing coarse-grained beaches and identify areas for further research to refine the model and improve predictions.
+
+#### Conclusion
+
+This study provides a detailed numerical model of swash motion and air entrapment on coarse-grained beaches, offering valuable insights into the impact of sediment characteristics on wave behavior and sediment transport. The findings contribute to a better understanding of coastal processes and offer practical recommendations for coastal engineering and management practices. By incorporating air entrapment and sediment dynamics into the model, this research supports efforts to improve beach stability and manage erosion in coarse-grained coastal environments.
+
+#### Future Work
+
+Future research directions include:
+
+1. **Field Validation**: Conducting field studies to validate the numerical model and assess its applicability to real-world coastal environments.
+2. **Sediment Variability**: Investigating a wider range of sediment sizes and beach slopes to further understand their impact on swash dynamics and air entrapment.
+3. **Enhanced Modeling Techniques**: Developing advanced modeling techniques to improve the accuracy and resolution of simulations, incorporating additional physical processes and interactions.
+
+By addressing these areas, future research can build on the findings of this study and contribute to the development of more effective coastal management and engineering strategies.
